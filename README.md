@@ -1,3 +1,7 @@
+# Fork of github.com/w9jds/firebase-action
+
+Forked to add libc6-compat, required for building firebase functions with this dependency.
+
 # GitHub Actions for Firebase
 
 This Action for [firebase-tools](https://github.com/firebase/firebase-tools) enables arbitrary actions with the `firebase` command-line client.
