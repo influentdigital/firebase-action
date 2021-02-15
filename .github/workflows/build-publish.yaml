@@ -17,5 +17,5 @@ jobs:
         with:
           username: kwoodhouse
           password: ${{ secrets.DOCKER_PASSWORD }}
-          repository: kwoodhouse93/firebase-action
+          repository: kwoodhouse/firebase-action
           tags: latest
