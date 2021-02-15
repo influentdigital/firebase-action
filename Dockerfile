@@ -12,6 +12,8 @@ LABEL com.github.actions.color="gray-dark"
 
 RUN apk --update add openjdk8-jre
 RUN apk add --no-cache git
+RUN apk add libc6-compat && ln -s /lib/libc.musl-x86_64.so.1 /lib/ld-linux-x86-64.so.2
+
 
 RUN npm install -g firebase-tools@9.2.0
 
